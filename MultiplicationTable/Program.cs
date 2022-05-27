@@ -4,14 +4,13 @@ namespace MultiplicationTable
 {
     class Program
     {
-        static long MultiplicationMethod(long number)
+        static void MultiplicationMethod(long number)
         {
             for(int i=0; i<10; i++) 
             {
                 Console.WriteLine($"{number}x{i}={number*i}");
             }
           
-            return 5;
         }
         
         static void outputConsole()
